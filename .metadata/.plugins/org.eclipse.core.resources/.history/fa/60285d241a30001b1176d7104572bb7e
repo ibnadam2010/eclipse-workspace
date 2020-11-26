@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Salut</title>
+</head>
+<body>
+<%@ include file="menu.jsp" %>
+<h1>Bonjour</h1>
+
+<p>
+${empty nom? '':nom }
+${fruits[0] };
+</p>
+</body>
+</html>
