@@ -9,9 +9,7 @@
 <body>
 <%@ include file="menu.jsp" %>
 <h1><c:out value="Bonsoir"/></h1>
-<c:if test="${nom!='' }">
-	<c:out value="${nom }"></c:out>
-</c:if>
+<c:if test="${nom!='' }">nom</c:if>
 <h3>
 ${auteur.actif?'vous etes acif': 'Pas trop actif' }
 </h3>
